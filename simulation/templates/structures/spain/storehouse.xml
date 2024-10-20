@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Cost>
+</Cost>
+  <Footprint>
+    <Square depth="15.0" width="18.0" />
+  </Footprint>
+  <Identity>
+    <Civ>spain</Civ>
+    <SpecificName>Ystordy</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static depth="14.0" width="17.0" />
+  </Obstruction>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
+  <VisualActor>
+    <Actor>structures/teutonics/storehouse.xml</Actor>
+  </VisualActor>
+</Entity>

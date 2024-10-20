@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Attack disable="" />
+  <Footprint>
+    <Height>20.0</Height>
+    <Square depth="10.0" width="10.0" />
+  </Footprint>
+  <GarrisonHolder disable="" />
+  <Identity>
+    <Civ>spain</Civ>
+    <SpecificName>Wall_Tower</SpecificName>
+    <Tooltip>Does not shoot or garrison.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="9.5" width="9.5" />
+  </Obstruction>
+  <RallyPoint disable="" />
+  <VisualActor>
+    <Actor>structures/med_iberian/wall_tower.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>6.5</Length>
+  </WallPiece>
+</Entity>

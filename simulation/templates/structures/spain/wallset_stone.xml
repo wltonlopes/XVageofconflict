@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>spain</Civ>
+    <SpecificName>Castle_Walls</SpecificName>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <Templates>
+      <Gate>structures/spain/wall_gate</Gate>
+      <Tower>structures/spain/wall_tower</Tower>
+      <WallLong>structures/spain/wall_long</WallLong>
+      <WallMedium>structures/spain/wall_medium</WallMedium>
+      <WallShort>structures/spain/wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

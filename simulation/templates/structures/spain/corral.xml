@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_corral">
+  <Footprint>
+    <Square depth="21.0" width="12.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>spain</Civ>
+    <SpecificName>Cavalidos</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static depth="19.0" width="10.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      gaia/fauna_pig_trainable
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/med_iberian/plot_corral.xml</Actor>
+    <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

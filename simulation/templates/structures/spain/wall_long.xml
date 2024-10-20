@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_long">
+  <Footprint>
+    <Height>9.0</Height>
+    <Square depth="7.0" width="37.0" />
+  </Footprint>
+  <!-- <GarrisonHolder>
+    <Max>4</Max>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>11.0</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>3</X>
+        <Y>11.0</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>-3</X>
+        <Y>11.0</Y>
+        <Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>7</X>
+        <Y>11.0</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>-7</X>
+        <Y>11.0</Y>
+        <Z>0</Z>
+      </Archer5>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder> -->
+  <Identity>
+    <Civ>spain</Civ>
+    <SelectionGroupName>structures/teutonic_wallset_stone</SelectionGroupName>
+    <SpecificName>Castle_Walls</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static depth="6.0" width="37.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/med_iberian/wall_long.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>37.7</Length>
+  </WallPiece>
+</Entity>

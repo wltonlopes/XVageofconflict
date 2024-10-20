@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_ram">
+  <Footprint replace="">
+    <Height>3.0</Height>
+    <Square depth="10.0" width="6.75" />
+  </Footprint>
+  <Identity>
+    <Civ>spain</Civ>
+    <Icon>units/iber_siege_ram.png</Icon>
+    <SpecificName>Ram</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/teutonics/siege_ram.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_crossbowman">
+  <Attack>
+    <Ranged>
+      <AttackName>shoot</AttackName>
+      <Damage>
+        <Pierce>23.5</Pierce>
+      </Damage>
+      <MaxRange>60</MaxRange>
+      <PrepareTime>4000</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <Projectile>
+        <Speed>100</Speed>
+        <Spread>1</Spread>
+        <Gravity>50</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <Identity>
+    <Civ>spain</Civ>
+    <SelectionGroupName>units/spain/infantry_arquebusiers_b</SelectionGroupName>
+    <SpecificName>Spain Arquebusiers</SpecificName>
+    <Icon>units/spain/infantry_arquebusiers.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/spain/infantry_arquebusiers_a</Entity>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+    <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/spain/infantry_arquebusiers_b.xml</Actor>
+  </VisualActor>
+</Entity>

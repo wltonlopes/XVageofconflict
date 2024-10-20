@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Footprint replace="">
+    <Square depth="10.0" width="10.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>spain</Civ>
+    <GenericName>Han War Chariot</GenericName>
+    <SpecificName>Zhanche</SpecificName>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <Icon>units/han/chariot.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-unlock_champion_cavalry phase_city</Techs>
+    </Requirements>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+    <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/spain/cavalry_conquer_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

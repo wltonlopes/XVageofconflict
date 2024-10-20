@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Cost>
+</Cost>
+  <Footprint>
+    <Square depth="18.0" width="19.0" />
+  </Footprint>
+  <Identity>
+    <Civ>spain</Civ>
+    <SpecificName>Ffermdy</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static depth="16.0" width="17.0" />
+  </Obstruction>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
+  <VisualActor>
+    <Actor>structures/med_iberian/farmstead.xml</Actor>
+  </VisualActor>
+</Entity>

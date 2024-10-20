@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Height>9.0</Height>
+    <Square depth="7.0" width="9.5" />
+  </Footprint>
+  <Identity>
+    <Civ>spain</Civ>
+    <SelectionGroupName>structures/teutonic_wallset_stone</SelectionGroupName>
+    <SpecificName>Castle_Walls</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static depth="7.0" width="9.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/med_iberian/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>8.0</Length>
+  </WallPiece>
+</Entity>

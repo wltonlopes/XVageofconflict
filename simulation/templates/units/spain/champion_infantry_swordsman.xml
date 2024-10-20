@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Identity>
+    <Civ>spain</Civ>
+    <Icon>units/spain/swordsman_a.png</Icon>
+    <SelectionGroupName>units/spain/infantry_swordsman_b</SelectionGroupName>
+    <SpecificName>Swordsman</SpecificName>
+  </Identity>
+  <Promotion disable="" />
+  <VisualActor>
+    <Actor>units/spain/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

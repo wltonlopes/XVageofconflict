@@ -1,0 +1,14 @@
+{
+	"genericName": "Metal Armor",
+	"autoResearch": true,
+	"description": ".",
+	"tooltip": "Castella Units +20% health and +10% train time.",
+	"requirements": {
+		"civ": "spain"
+	},
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.2},
+		{ "value": "Cost/BuildTime", "multiply": 1.1}
+	],
+	"affects": ["Unit"]
+}
