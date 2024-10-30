@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Shoushe Nu">
+    <variant frequency="1" name="base">
       <mesh>structural/cannon.dae</mesh>
       <!-- <animations>
         <animation event="0.87" file="mechanical/han_shoushe_attack.dae" load="0.70" name="attack_ranged" speed="130"/>
@@ -13,8 +13,8 @@
       </animations> -->
       <props>
         <prop actor="props/units/weapons/rock.xml" attachpoint="projectile"/>
-        <prop actor="props/units/han/mangonel_operator_a.xml" attachpoint="operator_R"/>
-        <prop actor="props/units/han/shoushe_infantry_b.xml" attachpoint="operator_L"/>
+        <prop actor="props/units/spain/operator_a.xml" attachpoint="operator_R"/>
+        <prop actor="props/units/spain/infantry_b.xml" attachpoint="operator_L"/>
       </props>
       <textures>
         <texture file="props/wep_tex_a.png" name="baseTex"/>

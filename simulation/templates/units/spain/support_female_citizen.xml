@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
-    <Civ>teutonic</Civ>
+    <Civ>spain</Civ>
     <GenericName>Citizen</GenericName>
     <Icon>units/celt_support_female_citizen.png</Icon>
     <SelectionGroupName>units/teutonic/support_citizen</SelectionGroupName>

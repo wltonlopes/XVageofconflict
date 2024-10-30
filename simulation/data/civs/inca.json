@@ -1,0 +1,71 @@
+﻿{
+	"Code": "inca",
+	"Culture": "inca",
+	"Region":[ "andes" ],
+	"Music":[
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"Highland_Mist.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"CivBonuses":
+	[
+		
+	],
+	"WallSets":
+	[
+	"other/wallset_palisade",
+        "structures/inca/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/inca/civil_centre"
+		},
+		{
+			"Template": "units/inca/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/inca/infantry_maceman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/inca/infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/inca/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/inca/infantry_chaski",
+			"Count": 1
+		}
+	],
+	"AINames":
+	[
+		"Sinchi Roca",
+		"LLoque Yupanqui",
+		"Mayta Capac",
+		"Inca Roca",
+		"Huiracocha",
+		"Pachacutec",
+		"Tupac Yupanqui",
+		"Huascar",
+		"Tupac Huallpa",
+		"Tupac Amaru",
+		"Capac Yupanqui",
+		"Yahuar Huacac"
+	],
+	"SkirmishReplacements":
+	{
+	"skirmish/units/default_infantry_ranged_b": "units/inca/infantry_slinger_b",
+	"skirmish/units/default_infantry_melee_b": "units/inca/infantry_maceman_b",
+	"skirmish/units/special_starting_unit":"units/inca/infantry_chaski",
+	"skirmish/structures/default_house_10": "structures/inca/house",
+	"skirmish/units/default_cavalry": "units/inca/infantry_javelineer_b",
+	"skirmish/units/default_ship_trireme":"units/inca/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

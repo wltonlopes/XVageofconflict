@@ -86,9 +86,9 @@
         <texture file="props/banner_seleucids.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant name="teutonic">
+    <variant name="inca">
       <textures>
-        <texture file="props/banner_teutonic.png" name="baseTex"/>
+        <texture file="props/banner_inca.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
