@@ -25,7 +25,7 @@
 	],
 	"Factions": [
 		{
-			"Name": "Teutonic Order",
+			"Name": "Castella Lion",
 			"Description": "N/A.",
 			"Technologies": [
 				{
@@ -97,30 +97,28 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/spain/infantry_archer_b",
+			"Template": "units/spain/infantry_crossbowman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/spain/champion_cavalry_conquer"
+			"Template": "units/spain/commander",
+			"Count": 1
+		},
+		{
+			"Template": "units/spain/cavalry_swordsman_b"
 		}
 	],
 
 	"AINames": [
-		"Viridomarus",
-		"Brennus",
-		"Cativolcus",
-		"Cingetorix",
-		"Vercingetorix",
-		"Divico",
-		"Ambiorix",
-		"Liscus",
-		"Valetiacus",
-		"Viridovix"
+		"Afonso X",
+		"Isabel I",
+		"Fernando III"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/spain/champion_cavalry_conquer",
+		"skirmish/units/default_cavalry": "units/spain/cavalry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/spain/infantry_crossbowman_b",
 		"skirmish/units/default_infantry_melee_b": "units/spain/infantry_pikeman_b",
+		"skirmish/units/special_starting_unit":"units/spain/commander",
 		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true

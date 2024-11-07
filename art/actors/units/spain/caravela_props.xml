@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+     <variant frequency="1" name="Byzantine Dromon">
+      <mesh>structural/med_iberian/caravela_prop.dae</mesh>
+      <textures>
+        <texture file="structural/ptol_quinquereme.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="units/spain/caravela_shrouds.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

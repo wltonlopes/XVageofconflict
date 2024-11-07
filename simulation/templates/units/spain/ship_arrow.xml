@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_warship_arrow">
+  <Cost>
+    <BuildTime>40</BuildTime>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square depth="36.0" width="12.0" />
+  </Footprint>
+  <GarrisonHolder>
+    <Max>40</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="add">200</Max>
+  </Health>
+  <Identity>
+    <Civ>spain</Civ>
+    <Icon>units/celt_ship_trireme.png</Icon>
+    <SpecificName>Venetic Ponti</SpecificName>
+    <Tooltip>Transport many soldiers across the sea.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spain/caravela_base.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant frequency="50" name="uni-c-4">
+  <textures>
+      <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
+      <texture file="skeletal/spain/armor_1_norm.png" name="normTex"/>
+      <texture file="skeletal/spain/armor_1_spec.png" name="specTex"/>
+  </textures>
+</variant>

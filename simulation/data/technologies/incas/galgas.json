@@ -1,0 +1,32 @@
+{
+	"genericName": "galgas",
+	"specificName": {
+		"inca": "Galgas"
+	},
+	"description": "As galgas, que eran grandes piedras que colocaban en el borde de una ladera, y que echaban a rodar para que causara estragos a los que pasaban por la parte baja.",
+	"cost": {
+		"wood": 500,
+		"stone": 500,
+		"metal": 500
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "inca" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "wall.png",
+	"researchTime": 40,
+	"tooltip": "Defense Structures +25% attack damage.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.25 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 1.25 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.25 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.25 }
+ 	],
+	"affects": ["Structure Defensive"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="housec">
-      <mesh>structural/inca_house_comunal.dae</mesh>
+      <mesh>structural/inca/house_comunal.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>

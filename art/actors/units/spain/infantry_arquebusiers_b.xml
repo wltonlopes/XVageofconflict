@@ -5,8 +5,8 @@
     <variant frequency="1" name="rifleman_base">
       <mesh>skeletal/new/m_pants_sleeves.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
-	      <prop actor="props/units/heads/helmet_morrion.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_iberian.xml" attachpoint="head"/>
+	      <prop actor="props/units/helmets/helmet_morrion.xml" attachpoint="helmet"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
         <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
@@ -15,19 +15,11 @@
     </variant>
   </group>
   <group>
-    <variant name="slinger_01">
+    <variant name="1">
       <textures>
         <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="slinger_02">
-      <textures>
-        <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="slinger_03">
-      <textures>
-        <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
+        <texture file="skeletal/spain/armor_1_norm.png" name="normTex"/>
+        <texture file="skeletal/spain/armor_1_spec.png" name="specTex"/>
       </textures>
     </variant>	
   </group>

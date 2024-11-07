@@ -3,11 +3,11 @@
   <Identity>
     <Civ>spain</Civ>
     <GenericName>Citizen</GenericName>
-    <Icon>units/celt_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/teutonic/support_citizen</SelectionGroupName>
+    <Icon>units/celt/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/spain/support_citizen</SelectionGroupName>
     <SpecificName>Citizen Worker</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/teutonics/female_citizen.xml</Actor>
+    <Actor>units/spain/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

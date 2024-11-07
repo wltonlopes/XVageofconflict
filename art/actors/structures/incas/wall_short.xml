@@ -15,7 +15,7 @@
   </group>
   <group>
     <variant frequency="1" name="wall_med">
-      <mesh>structural/inca_wall_short.dae</mesh>
+      <mesh>structural/inca/wall_short.dae</mesh>
     </variant>
   </group>
   <group>

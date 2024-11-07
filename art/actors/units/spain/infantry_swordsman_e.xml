@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_a.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/helmet_morrion_full.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/helmet_morrion_full.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/iber_round_small_01_basic.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/broadsword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/sheath_falcata_e.xml" attachpoint="sheath_01_L"/>
@@ -14,21 +14,13 @@
     </variant>
   </group>
   <group>
-    <variant name="slinger_01">
+    <variant name="1">
       <textures>
         <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
+        <texture file="skeletal/spain/armor_1_norm.png" name="normTex"/>
+        <texture file="skeletal/spain/armor_1_spec.png" name="specTex"/>
       </textures>
-    </variant>
-    <variant name="slinger_02">
-      <textures>
-        <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="slinger_03">
-      <textures>
-        <texture file="skeletal/spain/armor_1.png" name="baseTex"/>
-      </textures>
-    </variant>
+    </variant>	
   </group>
   <group>
     <variant file="biped/base_swordsman_shield_fast.xml"/>

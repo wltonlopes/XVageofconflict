@@ -2,8 +2,8 @@
 <Entity parent="template_player">
   <Identity>
     <Civ>spain</Civ>
-    <GenericName>Kingdown of Castella and Aragon</GenericName>
-    <History>The.</History>
+    <GenericName>Castella and Lion</GenericName>
+    <History>Two Spanish kingdoms that united under Catholic monarchs, leading the Reconquista and early exploration of the Americas. They shaped the early Spanish Empire.</History>
     <Icon>emblems/emblem_spain.png</Icon>
   </Identity>
 </Entity>

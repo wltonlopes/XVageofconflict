@@ -8,7 +8,7 @@
         <prop actor="units/spain/cavalry_swordsman_b_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_blanket_leather_basic.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_armor_teutonic.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_armor_spain.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -30,7 +30,7 @@
     <variant file="quadraped/base_horse_run.xml"/>
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="units/teutonics/cavalry_swordsman_b_r.xml" attachpoint="rider_R"/>
+        <prop actor="units/spain/cavalry_swordsman_b_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>

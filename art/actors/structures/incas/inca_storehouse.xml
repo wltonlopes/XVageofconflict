@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="house1">
-      <mesh>structural/inca_storehouse.dae</mesh>
+      <mesh>structural/inca/storehouse.dae</mesh>
         <props>
         <prop actor="props/structures/decals/dirt_3x5.xml" attachpoint="root"/>
          <prop actor="props/special/eyecandy/blocks_granite_pile_a.xml" attachpoint="1"/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Entity>
+ <!-- <Auras datatype="tokens">
+      units/
+  </Auras> -->
+   <Cost>
+    <Resources>
+      <wood>200</wood>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Commander</GenericName>
+    <VisibleClasses datatype="tokens">Commander</VisibleClasses>
+    <Icon>units/inca_acclas.png</Icon>
+  </Identity>
+  <TrainingRestrictions>
+    <Category>Commander</Category>
+  </TrainingRestrictions>
+</Entity>

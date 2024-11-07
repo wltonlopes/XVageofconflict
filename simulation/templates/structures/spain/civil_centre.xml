@@ -2,22 +2,20 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Footprint>
     <Height>8.0</Height>
-    <Square depth="30.0" width="19.0" />
+    <Square depth="30.0" width="45.0" />
   </Footprint>
   <Identity>
     <Civ>spain</Civ>
     <SpecificName>Civic Centre</SpecificName>
   </Identity>
   <Obstruction>
-    <Static depth="30.0" width="19.0" />
+    <Static depth="30.0" width="45.0" />
   </Obstruction>
     <Trainer>
     <Entities datatype="tokens">
-	  units/{civ}/infantry_arquebusiers_b
 	  units/{civ}/infantry_spearman
 	  units/{civ}/infantry_swordsman_b
 	  units/{civ}/infantry_crossbowman_b
-	  units/{civ}/infantry_pikeman
     </Entities>
   </Trainer>
   <VisualActor>
