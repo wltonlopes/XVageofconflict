@@ -1,0 +1,71 @@
+﻿{
+	"Code": "tupinamba",
+	"Culture": "tupinamba",
+	"Region":[ "southamerica" ],
+	"Music":[
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"Highland_Mist.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"CivBonuses":
+	[
+		
+	],
+	"WallSets":
+	[
+	"other/wallset_palisade",
+        "structures/tupinamba/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/tupinamba/civil_centre"
+		},
+		{
+			"Template": "units/tupinamba/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/tupinamba/infantry_maceman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/tupinamba/infantry_archer_b",
+			"Count": 2
+		},		
+		{
+			"Template": "units/tupinamba/morubixara",
+			"Count": 1
+		},
+		{
+			"Template": "units/tupinamba/infantry_chaski",
+			"Count": 1
+		}
+	],
+	"AINames":
+	[
+		"Sinchi Roca",
+		"LLoque Yupanqui",
+		"Mayta Capac",
+		"tupinamba Roca",
+		"Huiracocha",
+		"Pachacutec",
+		"Tupac Yupanqui",
+		"Huascar",
+		"Tupac Huallpa",
+		"Tupac Amaru",
+		"Capac Yupanqui",
+		"Yahuar Huacac"
+	],
+	"SkirmishReplacements":
+	{
+	"skirmish/units/default_infantry_ranged_b": "units/tupinamba/infantry_archer_b",
+	"skirmish/units/default_infantry_melee_b": "units/tupinamba/infantry_maceman_b",
+	"skirmish/units/special_starting_unit":"units/tupinamba/morubixara",
+	"skirmish/structures/default_house_10": "structures/tupinamba/house",
+	"skirmish/units/default_cavalry": "units/tupinamba/infantry_scout",
+	"skirmish/units/default_ship_trireme":"units/tupinamba/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

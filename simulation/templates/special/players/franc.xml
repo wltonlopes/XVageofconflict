@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>franc</Civ>
+    <GenericName>Royaume de France</GenericName>
+    <History>.</History>
+    <Icon>emblems/emblem_spain.png</Icon>
+  </Identity>
+</Entity>
