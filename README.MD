@@ -1,9 +1,5 @@
-# Medieval A.D.
+# XVI mod A.D.
 
-*Medieval A.D.* is a mod for [*0 A.D. Empires Ascendant*](https://play0ad.com/). This mod adds the following civilizations:
-
-- Teutonic Order
-- Kingdom of Poland
 
 ## Download
 
@@ -35,4 +31,3 @@ We could always use another helping hand with this project. There are several wa
 ## 🤝 Contributors
 
 - **BigTiger**:    2D/3D art (Special thanks for laying the ground work of this awesome mod).
-- **Stan`**:       2D/3D art
