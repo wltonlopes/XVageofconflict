@@ -25,7 +25,7 @@
     <variant frequency="1" name="Mali Elite Spear Cavalry 01">
       <textures>
         <texture file="skeletal/mali_pike_e_03.png" name="baseTex"/>
-        <texture file="skeletal/kush_pike_e_03_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/padded_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Mali Elite Spear Cavalry 02">
@@ -37,13 +37,13 @@
     <variant frequency="1" name="Mali Elite Spear Cavalry 03">
       <textures>
         <texture file="skeletal/mali_pike_e_05.png" name="baseTex"/>
-        <texture file="skeletal/kush_pike_e_03_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/padded_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Mali Elite Spear Cavalry 04">
       <textures>
         <texture file="skeletal/mali_pike_e_06.png" name="baseTex"/>
-        <texture file="skeletal/kush_pike_e_03_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/padded_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

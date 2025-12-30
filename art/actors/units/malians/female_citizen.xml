@@ -10,7 +10,7 @@
       </props>
       <textures>
         <texture file="skeletal/mali_support_female_citizen_light.png" name="baseTex"/>
-        <texture file="skeletal/kush/support_female_citizen_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/dress_female_02_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="5" name="Skirt Medium Skin">
@@ -21,7 +21,7 @@
       </props>
       <textures>
         <texture file="skeletal/mali_support_female_citizen_medium.png" name="baseTex"/>
-        <texture file="skeletal/kush/support_female_citizen_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/dress_female_02_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="3" name="Skirt Dark Skin">
@@ -32,7 +32,7 @@
       </props>
       <textures>
         <texture file="skeletal/mali_support_female_citizen_dark.png" name="baseTex"/>
-        <texture file="skeletal/kush/support_female_citizen_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/dress_female_02_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="2" name="White Dress Light Skin">
@@ -43,7 +43,7 @@
       </props>
       <textures>
         <texture file="skeletal/mali_support_female_citizen_dress_01_light.png" name="baseTex"/>
-        <texture file="skeletal/kush/support_female_citizen_dress_01_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="5" name="White Dress Medium Skin">
@@ -54,7 +54,7 @@
       </props>
       <textures>
         <texture file="skeletal/mali_support_female_citizen_dress_01_medium.png" name="baseTex"/>
-        <texture file="skeletal/kush/support_female_citizen_dress_01_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="3" name="White Dress Dark Skin">
@@ -65,10 +65,9 @@
       </props>
       <textures>
         <texture file="skeletal/mali_support_female_citizen_dress_01_dark.png" name="baseTex"/>
-        <texture file="skeletal/kush/support_female_citizen_dress_01_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-
   </group>
   <group>
     <variant frequency="100" name="Base">

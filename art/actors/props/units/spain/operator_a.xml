@@ -6,10 +6,10 @@
       <animations>
         <animation file="biped/infantry/siege_operators/mangonel_operator_idle_a.dae" name="Idle" speed="100"/>
       </animations>
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_pants_loose_01.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
-	      <prop actor="props/units/heads/helmet_morrion_full.xml" attachpoint="helmet"/>
+	      <prop actor="props/units/helmets/helmet_morrion.xml" attachpoint="helmet"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
     </variant>

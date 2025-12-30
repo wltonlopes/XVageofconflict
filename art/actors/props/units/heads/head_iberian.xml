@@ -37,42 +37,6 @@
         <texture file="props/head/celt_j.dds" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="mesh">
-      <mesh>props/new/dude_head.dae</mesh>
-      <textures>
-        <texture file="props/head/iber_isp_b_1.dds" name="baseTex"/>
-      </textures>
-    </variant> 
-    <variant frequency="1" name="face-young">
-        <mesh>props/new/dude_head.dae</mesh>
-      <textures>
-        <texture file="props/head/hele_a.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="face-shaven">
-        <mesh>props/new/dude_head.dae</mesh>
-      <textures>
-        <texture file="props/head/hele_b.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="face-whiskers">
-        <mesh>props/new/dude_head.dae</mesh>
-      <textures>
-        <texture file="props/head/hele_h.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="face-grit-teeth">
-          <mesh>props/new/dude_head.dae</mesh>
-      <textures>
-        <texture file="props/head/hele_i.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="face-generic">
-            <mesh>props/new/dude_head.dae</mesh>
-      <textures>
-        <texture file="props/head/generic_a.dds" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="hair-dark brown">

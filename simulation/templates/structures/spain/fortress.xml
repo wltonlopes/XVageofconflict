@@ -12,10 +12,9 @@
   </Population>
   <Researcher>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
+      <!-- siege_attack
       siege_cost_metal
-      siege_cost_wood
+      siege_cost_wood -->
     </Technologies>
   </Researcher>
   <Sound>
@@ -27,12 +26,12 @@
   </Sound>
   <Trainer>
     <Entities datatype="tokens">
-	  units/{civ}/infantry_spearman_b
-	  units/{civ}/infantry_swordsman_b
-	  units/{civ}/siege_cannon
-	  units/{civ}/infantry_pikeman	  
-     	  units/{civ}/champion_cavalry_conquer
-          units/{civ}/champion_infantry	  
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_swordsman_b
+      units/{civ}/siege_cannon
+      units/{civ}/infantry_pikeman
+      units/{civ}/champion_cavalry_conquer
+      units/{civ}/champion_infantry	  
     </Entities>
   </Trainer>
   <VisualActor>
