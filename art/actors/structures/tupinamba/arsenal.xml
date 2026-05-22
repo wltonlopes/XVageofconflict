@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Tupi Arsenal">
-      <mesh>structural/tupis/arsenal.dae</mesh>
+      <mesh>structural/tupinamba/arsenal.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="particle/flame.xml" attachpoint="fire"/>

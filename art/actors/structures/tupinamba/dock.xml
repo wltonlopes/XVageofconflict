@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/tupis/dock.dae</mesh>
+      <mesh>structural/tupinamba/dock.dae</mesh>
       <props>
       </props>
       <textures>

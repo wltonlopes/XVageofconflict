@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Market">
-      <mesh>structural/tupis/market.dae</mesh>
+      <mesh>structural/tupinamba/market.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
