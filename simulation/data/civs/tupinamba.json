@@ -23,7 +23,7 @@
 			"Template": "structures/tupinamba/civil_centre"
 		},
 		{
-			"Template": "units/tupinamba/support_female_citizen",
+			"Template": "units/tupinamba/support_civilian",
 			"Count": 4
 		},
 		{
@@ -67,5 +67,5 @@
 	"skirmish/units/default_cavalry": "units/tupinamba/infantry_scout",
 	"skirmish/units/default_ship_trireme":"units/tupinamba/ship_bireme"
 	},
-	"SelectableInGameSetup": true
+	"SelectableInGameSetup": false
 }

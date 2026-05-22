@@ -1,0 +1,152 @@
+{
+	"Code": "ethiopia",
+	"Culture": "EastAfrican",
+
+	"Music": [
+		{
+			"File": "Sunrise.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Water's_Edge.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Celtic_Pride.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cisalpine_Gaul.ogg",
+			"Type": "peace"
+		}
+	],
+
+	"Factions": [
+		{
+			"Name": "House of ethiopiaomon",
+			"Description": "Dynasty claiming descent from ethiopiaomon and the Queen of Sheba.",
+
+			"Technologies": [
+				{
+					"Name": "Mountain Kingdom",
+					"History": "Ethiopian kingdoms relied heavily on mountainous terrain for defense.",
+					"Description": "Units move 15% faster on hills and elevated terrain."
+				},
+				{
+					"Name": "Imperial Guard Traditions",
+					"History": "The Imperial Guard served as elite troops protecting the Negusa Nagast.",
+					"Description": "Champion infantry gain +15% attack."
+				}
+			],
+
+			"Heroes": [
+				{
+					"Name": "Zara Yaqob",
+					"Class": "Emperor",
+					"Armament": "Sword and Shield",
+					"Emblem": "Cross of Ethiopia",
+					"History": "Emperor known for strengthening religion and central authority."
+				},
+				{
+					"Name": "Lebna Dengel",
+					"Class": "Emperor",
+					"Armament": "Sword and Spear",
+					"Emblem": "Lion of Judah",
+					"History": "Emperor during the invasions of Ahmad ibn Ibrahim al-Ghazi."
+				},
+				{
+					"Name": "Gelawdewos",
+					"Class": "Emperor",
+					"Armament": "Sword",
+					"Emblem": "Imperial Banner",
+					"History": "Restored imperial authority after severe wars."
+				}
+			]
+		}
+	],
+
+	"CivBonuses": [
+		{
+			"Name": "Highland Warfare",
+			"History": "Ethiopian armies were highly experienced fighting in mountains.",
+			"Description": "Infantry gains +10% resistance."
+		},
+		{
+			"Name": "Rock-Hewn Traditions",
+			"History": "Ethiopian architecture and engineering produced remarkable structures.",
+			"Description": "Buildings cost -10% stone."
+		}
+	],
+
+	"TeamBonuses": [
+		{
+			"Name": "Sacred Learning",
+			"History": "Church institutions preserved knowledge and traditions.",
+			"Description": "-10% technology research time for allies."
+		}
+	],
+
+	"Structures": [
+		{
+			"Name": "Imperial Church",
+			"Class": "Religious",
+			"Emblem": "",
+			"History": "Centers of religion and administration.",
+			"Requirements": "",
+			"Phase": "city",
+			"Special": "Nearby units slowly regenerate health."
+		}
+	],
+
+	"WallSets": [
+		"other/wallset_palisade",
+		"structures/ethiopia/wallset_stone"
+	],
+
+	"StartEntities": [
+		{
+			"Template": "structures/ethiopia/civil_centre"
+		},
+		{
+			"Template": "units/ethiopia/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/ethiopia/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ethiopia/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ethiopia/commander",
+			"Count": 1
+		},
+		{
+			"Template": "units/ethiopia/cavalry_spearman_b"
+		}
+	],
+
+	"AINames": [
+		"Zara Yaqob",
+		"Lebna Dengel",
+		"Gelawdewos",
+		"Baeda Maryam",
+		"Naod"
+	],
+
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry":"units/ethiopia/cavalry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b":"units/ethiopia/infantry_archer_b",
+		"skirmish/units/default_infantry_melee_b":"units/ethiopia/infantry_spearman_b",
+		"skirmish/units/special_starting_unit":"units/ethiopia/commander",
+		"skirmish/structures/default_house_5":"structures/{civ}/house"
+	},
+
+	"SelectableInGameSetup": true
+}

@@ -89,7 +89,7 @@
 			"Template": "structures/spain/civil_centre"
 		},
 		{
-			"Template": "units/spain/support_female_citizen",
+			"Template": "units/spain/support_civilian",
 			"Count": 4
 		},
 		{

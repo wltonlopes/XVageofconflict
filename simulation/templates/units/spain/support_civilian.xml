@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support_female_citizen">
+<Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>spain</Civ>
     <GenericName>Citizen</GenericName>
@@ -8,6 +8,6 @@
     <SpecificName>Citizen Worker</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>units/spain/female_citizen.xml</Actor>
+    <Actor>units/spain/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>
