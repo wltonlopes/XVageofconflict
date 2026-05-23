@@ -109,7 +109,7 @@
 			"Template": "structures/mali/civil_centre"
 		},
 		{
-			"Template": "units/mali/support_female_citizen",
+			"Template": "units/mali/support_civilian",
 			"Count": 4
 		},
 		{

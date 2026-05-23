@@ -1,0 +1,150 @@
+{
+	"Code": "hre",
+	"Culture": "germanic",
+	"Music": [
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sunrise.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Water's_Edge.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Celtic_Pride.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cisalpine_Gaul.ogg",
+			"Type": "peace"
+		}
+	],
+
+	"Factions": [
+		{
+			"Name": "Imperial Estates",
+			"Description": "The Imperial Princes and Free Cities of the Holy Roman Empire.",
+			"Technologies": [
+				{
+					"Name": "Imperial Reforms",
+					"History": "Throughout the late medieval and early modern period, the Holy Roman Emperors attempted reforms to centralize the Empire and strengthen imperial authority.",
+					"Description": "Town Centers and Castles cost -10% stone."
+				},
+				{
+					"Name": "Landsknecht Traditions",
+					"History": "Landsknechts were German mercenary pikemen and swordsmen famous across Europe.",
+					"Description": "Infantry gain +10% movement speed and +10% attack."
+				}
+			],
+
+			"Heroes": [
+				{
+					"Name": "Maximilian I",
+					"Class": "Emperor",
+					"Armament": "Sword, Plate Armor",
+					"Emblem": "Double-headed Eagle",
+					"History": "Holy Roman Emperor who reformed the imperial army and expanded Habsburg influence."
+				},
+				{
+					"Name": "Frederick III",
+					"Class": "Emperor",
+					"Armament": "Sword",
+					"Emblem": "Imperial Eagle",
+					"History": "Holy Roman Emperor from the House of Habsburg."
+				},
+				{
+					"Name": "Georg von Frundsberg",
+					"Class": "General",
+					"Armament": "Zweihander",
+					"Emblem": "Landsknecht Banner",
+					"History": "Famous commander known as the father of the Landsknechts."
+				}
+			]
+		}
+	],
+
+	"CivBonuses": [
+		{
+			"Name": "Imperial Cities",
+			"History": "The Empire contained many wealthy and autonomous cities.",
+			"Description": "Markets and Town Centers generate +15% income."
+		},
+		{
+			"Name": "German Steel",
+			"History": "German workshops and armorers produced some of the finest steel weapons in Europe.",
+			"Description": "Infantry and cavalry gain +1 armor."
+		}
+	],
+
+	"TeamBonuses": [
+		{
+			"Name": "Guild Networks",
+			"History": "Trade guilds connected cities throughout the Empire.",
+			"Description": "-10% technology research time for allies."
+		}
+	],
+
+	"Structures": [
+		{
+			"Name": "Imperial Forge",
+			"Class": "Economic",
+			"Emblem": "",
+			"History": "Advanced workshops producing armor and weapons.",
+			"Requirements": "",
+			"Phase": "city",
+			"Special": "Unlocks elite armor upgrades."
+		}
+	],
+
+	"WallSets": [
+		"other/wallset_palisade",
+		"structures/hre/wallset_stone"
+	],
+
+	"StartEntities": [
+		{
+			"Template": "structures/hre/civil_centre"
+		},
+		{
+			"Template": "units/hre/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/hre/infantry_pikeman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/hre/infantry_crossbowman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/hre/commander",
+			"Count": 1
+		},
+		{
+			"Template": "units/hre/cavalry_swordsman_b"
+		}
+	],
+
+	"AINames": [
+		"Maximilian I",
+		"Frederick III",
+		"Charles V",
+		"Sigismund",
+		"Georg von Frundsberg"
+	],
+
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/hre/cavalry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/hre/infantry_crossbowman_b",
+		"skirmish/units/default_infantry_melee_b": "units/hre/infantry_pikeman_b",
+		"skirmish/units/special_starting_unit":"units/hre/commander",
+		"skirmish/structures/default_house_5":"structures/{civ}/house"
+	},
+
+	"SelectableInGameSetup": false
+}
