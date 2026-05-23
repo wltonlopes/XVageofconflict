@@ -7,7 +7,6 @@
       <props>
         <prop actor="props/units/heads/head_iberian.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/helmet_morrion.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/han_advanced_melee_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/crossbow/han_nu.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/quivers/han_bolt_quiver.xml" attachpoint="back"/>
       </props>

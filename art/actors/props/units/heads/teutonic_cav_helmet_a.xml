@@ -38,12 +38,5 @@
       </textures>
     </variant>
   </group>
-  <group>
-    <variant frequency="1" name="all">
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-  </group>
-  <material>basic_trans_parallax_spec.xml</material>
+  <material>basic_trans_spec.xml</material>
 </actor>

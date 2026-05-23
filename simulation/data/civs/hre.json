@@ -146,5 +146,5 @@
 		"skirmish/structures/default_house_5":"structures/{civ}/house"
 	},
 
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }

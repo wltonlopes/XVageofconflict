@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>hre</Civ>
+    <GenericName>Citizen</GenericName>
+    <Icon>units/celt/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/spain/support_citizen</SelectionGroupName>
+    <SpecificName>Citizen Worker</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/holy_roman/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>
