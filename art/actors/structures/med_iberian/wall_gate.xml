@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<texture file="structural/spain/<texture file="structural/spain/<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
     <variant name="Wall long">
       <mesh>structural/med_iberian/caro_wall_gate.dae</mesh>
       <textures>
-        <texture file="structural/spain_struct_02.png" name="baseTex"/>
-        <texture file="structural/spain_struct_02_norm.png" name="normTex"/>   
-        <texture file="structural/spain_struct_02_spec.png" name="specTex"/>
+        <texture file="structural/spain/struct_02.png" name="baseTex"/>
+        <texture file="structural/spain/struct_02_norm.png" name="normTex"/>   
+        <texture file="structural/spain/struct_02_spec.png" name="specTex"/>
         <texture file="structural/ao/caro_wall_gate.png" name="aoTex"/>
       </textures>
       <props>

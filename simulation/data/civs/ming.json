@@ -1,0 +1,145 @@
+{
+	"Code": "ming",
+	"Culture": "chinese",
+	"Music": [
+		{
+			"File": "Red_Dawn.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Hill_of_Sorrows.ogg",
+			"Type": "peace"
+		}
+	],
+
+	"Factions": [
+		{
+			"Name": "Ming Imperial Court",
+			"Description": "The Hongwu Emperor and the restored Han Chinese rule after the Mongol Yuan dynasty.",
+			"Technologies": [
+				{
+					"Name": "Treasure Fleet Expeditions",
+					"History": "Admiral Zheng He led seven massive naval expeditions across the Indian Ocean, displaying Ming naval supremacy.",
+					"Description": "Docks and Warships cost -15% resources. Warships gain +2 line of sight."
+				},
+				{
+					"Name": "Shenjiying Firearm Corps",
+					"History": "The Ming established specialized firearm units using advanced gunpowder weapons including cannons, rockets, and handguns.",
+					"Description": "Gunpowder units gain +15% attack and +10% accuracy."
+				}
+			],
+
+			"Heroes": [
+				{
+					"Name": "Zhu Yuanzhang",
+					"Class": "Emperor",
+					"Armament": "Sword, Dragon Robe",
+					"Emblem": "Ming Dragon",
+					"History": "Founder of the Ming dynasty, rose from peasant to emperor and overthrew Mongol rule."
+				},
+				{
+					"Name": "Zheng He",
+					"Class": "Admiral",
+					"Armament": "Ceremonial Sword",
+					"Emblem": "Treasure Ship",
+					"History": "Muslim eunuch admiral who commanded the Ming treasure fleets across the Indian Ocean."
+				},
+				{
+					"Name": "Qi Jiguang",
+					"Class": "General",
+					"Armament": "Qiang Spear, Fire Lance",
+					"Emblem": "Mandarin Duck Formation",
+					"History": "Famous general who defeated wokou pirates and reformed the Ming army with innovative tactics."
+				}
+			]
+		}
+	],
+
+	"CivBonuses": [
+		{
+			"Name": "Grand Canal",
+			"History": "The Grand Canal connected northern and southern China, enabling efficient grain transport and trade.",
+			"Description": "Trade routes generate +20% income. Economic technologies research 20% faster."
+		},
+		{
+			"Name": "Gunpowder Mastery",
+			"History": "China invented gunpowder and perfected its use in cannons, rockets, and early firearms.",
+			"Description": "Siege weapons and gunpowder units deal +10% splash damage."
+		}
+	],
+
+	"TeamBonuses": [
+		{
+			"Name": "Silk Road Connections",
+			"History": "Ming China maintained extensive overland and maritime trade networks stretching from Korea to East Africa.",
+			"Description": "Allied markets and docks generate +10% trade income."
+		}
+	],
+
+	"Structures": [
+		{
+			"Name": "Treasure Shipyard",
+			"Class": "Naval",
+			"Emblem": "",
+			"History": "Massive shipyards in Nanjing and elsewhere that built the world's largest wooden vessels.",
+			"Requirements": "",
+			"Phase": "city",
+			"Special": "Unlocks heavy warships and reduces naval unit training time."
+		},
+		{
+			"Name": "Firearms Arsenal",
+			"Class": "Military",
+			"Emblem": "",
+			"History": "Imperial workshops producing fire lances, hand cannons, rockets, and early matchlocks.",
+			"Requirements": "",
+			"Phase": "town",
+			"Special": "Unlocks gunpowder units and advanced siege weapons."
+		}
+	],
+
+	"WallSets": [
+		"other/wallset_palisade",
+		"structures/ming/wallset_stone",
+		"structures/ming/wallset_brick"
+	],
+
+	"StartEntities": [
+		{
+			"Template": "structures/ming/civil_centre"
+		},
+		{
+			"Template": "units/ming/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/ming/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ming/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ming/infantry_jian_swordsman_b"
+		}
+	],
+
+	"AINames": [
+		"Hongwu Emperor",
+		"Yongle Emperor",
+		"Zheng He",
+		"Qi Jiguang",
+		"Xu Da",
+		"Lan Yu",
+		"Wang Yangming"
+	],
+
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/ming/cavalry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/ming/infantry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/ming/infantry_spearman_b",
+		"skirmish/structures/default_house_5": "structures/ming/house"
+	},
+
+	"SelectableInGameSetup": true
+}
