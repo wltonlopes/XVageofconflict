@@ -24,12 +24,12 @@
   </Health>
   <Identity>
     <Civ>hre</Civ>
-    <SelectionGroupName>units/spain/infantry_arquebusiers_b</SelectionGroupName>
+    <SelectionGroupName>units/hre/infantry_arquebusiers_b</SelectionGroupName>
     <SpecificName>Spain Arquebusiers</SpecificName>
-    <Icon>units/spain/infantry_arquebusiers.png</Icon>
+    <Icon>units/hre/infantry_arquebusiers.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/spain/infantry_arquebusiers_a</Entity>
+    <Entity>units/hre/infantry_arquebusiers_a</Entity>
   </Promotion>
   <Sound>
     <SoundGroups>

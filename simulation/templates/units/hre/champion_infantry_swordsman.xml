@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>hre</Civ>
-    <Icon>units/spain/swordsman_a.png</Icon>
-    <SelectionGroupName>units/spain/infantry_swordsman_b</SelectionGroupName>
+    <Icon>units/hre/swordsman_a.png</Icon>
+    <SelectionGroupName>units/hre/infantry_swordsman_b</SelectionGroupName>
     <SpecificName>Swordsman</SpecificName>
   </Identity>
   <Promotion disable="" />

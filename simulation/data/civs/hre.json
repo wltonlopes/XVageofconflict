@@ -114,16 +114,12 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/hre/infantry_pikeman_b",
+			"Template": "units/hre/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/hre/infantry_crossbowman_b",
+			"Template": "units/hre/infantry_archer_b",
 			"Count": 2
-		},
-		{
-			"Template": "units/hre/commander",
-			"Count": 1
 		},
 		{
 			"Template": "units/hre/cavalry_swordsman_b"
@@ -140,9 +136,8 @@
 
 	"SkirmishReplacements": {
 		"skirmish/units/default_cavalry": "units/hre/cavalry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/hre/infantry_crossbowman_b",
-		"skirmish/units/default_infantry_melee_b": "units/hre/infantry_pikeman_b",
-		"skirmish/units/special_starting_unit":"units/hre/commander",
+		"skirmish/units/default_infantry_ranged_b": "units/hre/infantry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/hre/infantry_spearman_b",
 		"skirmish/structures/default_house_5":"structures/{civ}/house"
 	},
 

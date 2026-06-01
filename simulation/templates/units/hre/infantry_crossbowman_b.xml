@@ -8,11 +8,10 @@
   <Identity>
     <Civ>hre</Civ>
     <SelectionGroupName>units/han/infantry_crossbowman_b</SelectionGroupName>
-    <SpecificName>Nǔ Shǒu</SpecificName>
     <Icon>units/han/infantry_crossbowman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/spain/infantry_crossbowman_a</Entity>
+    <Entity>units/hre/infantry_crossbowman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/holy_roman/infantry_crossbowman_b.xml</Actor>

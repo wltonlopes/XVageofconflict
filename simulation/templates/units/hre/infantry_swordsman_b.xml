@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>hre</Civ>
-    <SelectionGroupName>units/spain/infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/hre/infantry_swordsman_b</SelectionGroupName>
     <Icon>units/spain_infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/spain/infantry_swordsman_a</Entity>
+    <Entity>units/hre/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/holy_roman/infantry_swordsman_b.xml</Actor>

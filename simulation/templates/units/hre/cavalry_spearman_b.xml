@@ -2,12 +2,12 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>hre</Civ>
-    <Icon>units/spain/cavalry_spearman_a.png</Icon>
-    <SelectionGroupName>units/spain/cavalry_spearman_b</SelectionGroupName>
+    <Icon>units/hre/cavalry_spearman_a.png</Icon>
+    <SelectionGroupName>units/hre/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Kavallerie-Speer</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/spain/cavalry_spearman_a</Entity>
+    <Entity>units/hre/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/holy_roman/cavalry_spearman_b_m.xml</Actor>

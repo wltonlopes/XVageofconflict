@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/armor/13th_knight_armor.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/germ_02_beards.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/knight_weapons_infantry.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/heads/knight_helmets.xml" attachpoint="helmet"/>
       </props>

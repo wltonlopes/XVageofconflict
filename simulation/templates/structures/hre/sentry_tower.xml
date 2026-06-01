@@ -4,6 +4,6 @@
     <Civ>hre</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/holy_roman/sentry_tower.xml</Actor>
+    <Actor>structures/holy_roman/wooden_tower.xml</Actor>
   </VisualActor>
 </Entity>

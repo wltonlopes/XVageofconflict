@@ -15,6 +15,6 @@
     <HeightOffset>21.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/holy_roman/defense_tower.xml</Actor>
+    <Actor>structures/holy_roman/wall_tower.xml</Actor>
   </VisualActor>
 </Entity>

@@ -4,7 +4,7 @@
     <Civ>hre</Civ>
     <GenericName>Citizen</GenericName>
     <Icon>units/celt/support_female_citizen.png</Icon>
-    <SelectionGroupName>units/spain/support_citizen</SelectionGroupName>
+    <SelectionGroupName>units/hre/support_citizen</SelectionGroupName>
     <SpecificName>Citizen Worker</SpecificName>
   </Identity>
   <VisualActor>

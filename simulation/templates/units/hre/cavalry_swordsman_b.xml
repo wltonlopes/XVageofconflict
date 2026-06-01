@@ -2,12 +2,12 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>hre</Civ>
-    <Icon>units/spain/cavalry_swordsman_a.png</Icon>
-    <SelectionGroupName>units/spain/cavalry_swordsman_b</SelectionGroupName>
+    <Icon>units/hre/cavalry_swordsman_a.png</Icon>
+    <SelectionGroupName>units/hre/cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Kavallerie-Schwertk&#228;mpfer</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/spain/cavalry_swordsman_a</Entity>
+    <Entity>units/hre/cavalry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/holy_roman/cavalry_swordsman_b_m.xml</Actor>
