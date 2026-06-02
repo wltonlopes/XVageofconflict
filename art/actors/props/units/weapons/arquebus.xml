@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <textures>
+        <texture file="props/weapons/ming_arquebus.png" name="baseTex"/>
+        <texture file="props/weapons/ming_arquebus_norm.png" name="normTex"/>
+        <texture file="props/weapons/ming_arquebus_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="sarissa_a">
+      <mesh>props/arquebus.dae</mesh>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

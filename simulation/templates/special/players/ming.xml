@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>ming</Civ>
+    <GenericName>Ming Dynasty</GenericName>
+    <History>The Ming Dynasty was the ruling dynasty of China from 1368 to 1644.</History>
+    <Icon>emblems/emblem_ming.png</Icon>
+  </Identity>
+</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/spain/infantry_arquebusiers_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/spain/infantry_arquebusiers_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/spain/infantry_arquebusiers_a.xml</Actor>
+  </VisualActor>
+</Entity>
