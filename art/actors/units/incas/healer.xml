@@ -10,7 +10,7 @@
         <prop actor="props/units/helmets/inca_b.xml" attachpoint="helmet"/>
 	  </props>
     <textures>
-        <texture file="skeletal/inca_healer.png" name="baseTex"/>
+        <texture file="skeletal/inca/healer.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

@@ -3,10 +3,10 @@
   <castshadow/>
   <group>
     <variant name="Caro Wonder entrance">
-      <mesh>props/caro_wonder_entrance.dae</mesh>
+      <mesh>props/caro/wonder_entrance.dae</mesh>
       <textures>
         <texture file="structural/hele_struct_2.dds" name="baseTex"/>
-        <texture file="structural/ao/caro_wonder.png" name="aoTex"/>
+        <texture file="structural/ao/caro/wonder.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

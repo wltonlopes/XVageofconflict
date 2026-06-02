@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/han_temple.dae</mesh>
+      <mesh>structural/ming/temple.dae</mesh>
       <props>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="cauldron"/>
         <prop actor="props/structures/han/temple_cauldron.xml" attachpoint="cauldron"/>

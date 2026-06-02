@@ -3,10 +3,10 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>props/caro_corral_hay.dae</mesh>
+      <mesh>props/caro/corral_hay.dae</mesh>
       <textures>
         <texture file="props/wrld_hay_a.dds" name="baseTex"/>
-        <texture file="structural/ao/caro_corral.png" name="aoTex"/>
+        <texture file="structural/ao/caro/corral.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

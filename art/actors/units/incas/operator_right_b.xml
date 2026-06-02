@@ -17,7 +17,7 @@
   <group>
     <variant frequency="100" name="spearman">
       <textures>
-        <texture file="skeletal/inca_w_a_1.png" name="baseTex"/>
+        <texture file="skeletal/inca/w_a_1.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

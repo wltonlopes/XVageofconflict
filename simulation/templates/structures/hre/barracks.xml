@@ -27,7 +27,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/holy_roman/longhouse.xml</Actor>
+    <Actor>structures/carolingian/longhouse.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

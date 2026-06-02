@@ -18,7 +18,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/holy_roman/plot_corral.xml</Actor>
+    <Actor>structures/carolingian/corral.xml</Actor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

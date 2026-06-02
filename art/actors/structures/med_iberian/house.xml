@@ -1,4 +1,4 @@
-<texture file="structural/spain/<texture file="structural/spain/<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
@@ -12,7 +12,7 @@
         <texture file="structural/spain/struct.png" name="baseTex"/>
         <texture file="structural/spain/struct_norm.png" name="normTex"/>   
         <texture file="structural/spain/struct_spec.png" name="specTex"/>
-        <!-- <texture file="structural/ao/caro_house_a_ao.png" name="aoTex"/> -->
+        <!-- <texture file="structural/ao/caro/house_a_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
     <variant frequency="16" name="Carolingian House B">
@@ -24,7 +24,7 @@
         <texture file="structural/spain/struct.png" name="baseTex"/>
         <texture file="structural/spain/struct_norm.png" name="normTex"/>   
         <texture file="structural/spain/struct_spec.png" name="specTex"/>
-        <!-- <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
+        <!-- <texture file="structural/ao/caro/house_b_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
     <!-- <variant frequency="16" name="Carolingian House C">
@@ -36,7 +36,7 @@
         <texture file="structural/spain/struct_02.png" name="baseTex"/>
         <texture file="structural/spain/struct_02_norm.png" name="normTex"/>   
         <texture file="structural/spain/struct_02_spec.png" name="specTex"/>
-       <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/>
+       <texture file="structural/ao/caro/house_b_ao.png" name="aoTex"/>
       </textures>
     </variant> -->
     <!-- <variant frequency="16" name="Carolingian House D">
@@ -48,7 +48,7 @@
         <texture file="structural/spain/struct_02.png" name="baseTex"/>
         <texture file="structural/spain/struct_02_norm.png" name="normTex"/>   
         <texture file="structural/spain/struct_02_spec.png" name="specTex"/>
-       <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/>
+       <texture file="structural/ao/caro/house_b_ao.png" name="aoTex"/>
       </textures>
     </variant>
      <variant frequency="16" name="Carolingian House E">
@@ -60,7 +60,7 @@
         <texture file="structural/spain/struct_02.png" name="baseTex"/>
         <texture file="structural/spain/struct_02_norm.png" name="normTex"/>   
         <texture file="structural/spain/struct_02_spec.png" name="specTex"/>
-         <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/>
+         <texture file="structural/ao/caro/house_b_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="16" name="Carolingian House F">
@@ -75,7 +75,7 @@
         <texture file="structural/spain/struct_02.png" name="baseTex"/>
         <texture file="structural/spain/struct_02_norm.png" name="normTex"/>   
         <texture file="structural/spain/struct_02_spec.png" name="specTex"/>
-         <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/>
+         <texture file="structural/ao/caro/house_b_ao.png" name="aoTex"/>
       </textures>
     </variant> -->
   </group>
