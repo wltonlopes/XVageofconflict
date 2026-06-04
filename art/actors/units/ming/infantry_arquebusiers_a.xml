@@ -9,6 +9,7 @@
         <prop actor="props/units/helmets/ming_tou_kui.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/ming_helmet_prop.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/arquebus.xml" attachpoint="weapon_R"/>
+			  <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
