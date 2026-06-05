@@ -15,7 +15,7 @@
     <Static depth="26" width="23"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/ming/temple.xml</Actor>
+    <Actor>structures/ming/pagoda.xml</Actor>
     <FoundationActor>structures/fndn_6x7.xml</FoundationActor>
   </VisualActor>
 </Entity>
