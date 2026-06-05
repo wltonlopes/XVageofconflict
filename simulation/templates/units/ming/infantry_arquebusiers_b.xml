@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_crossbowman">
-  <!-- <Attack>
+  <Attack>
     <Ranged>
       <AttackName>shoot</AttackName>
       <Damage>
@@ -18,7 +18,7 @@
       </Projectile>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
-  </Attack> -->
+  </Attack>
   <Health>
     <Max>120</Max>
   </Health>

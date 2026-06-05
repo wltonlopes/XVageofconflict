@@ -1,41 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+    <variant frequency="1" name="rifleman_base">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/germ_02_beards.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/kite_01_hre.xml" attachpoint="shield"/>			
-        <prop actor="props/units/weapons/mod_spear_a.xml" attachpoint="weapon_R"/>		
-		    <prop actor="props/units/heads/gambeson_hood_a.xml" attachpoint="root"/>
+		    <prop actor="props/units/heads/archer_helmet_a.xml" attachpoint="helmet"/>	
+        <prop actor="props/units/weapons/arquebus.xml" attachpoint="weapon_R"/>
+			  <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
     </variant>
   </group>
-  <group>
-	<variant frequency="1" name="armor-1">
+ <group>
+    <variant name="slinger_01">
       <textures>
-        <texture file="skeletal/generic_gambeson_a.png" name="baseTex"/>
+        <texture file="skeletal/slinger_01.png" name="baseTex"/>
       </textures>
     </variant>
-	<variant frequency="1" name="armor-2">
+    <variant name="slinger_02">
       <textures>
-        <texture file="skeletal/generic_gambeson_b.png" name="baseTex"/>
+        <texture file="skeletal/slinger_02.png" name="baseTex"/>
       </textures>
     </variant>
-	<variant frequency="1" name="armor-3">
+    <variant name="slinger_03">
       <textures>
-        <texture file="skeletal/generic_gambeson_c.png" name="baseTex"/>
-      </textures>
-    </variant>
-	<variant frequency="1" name="armor-4">
-      <textures>
-        <texture file="skeletal/generic_gambeson_cross_a.png" name="baseTex"/>
+        <texture file="skeletal/slinger_03.png" name="baseTex"/>
       </textures>
     </variant>	
   </group>
   <group>
-    <variant file="biped/base_spearman_relax.xml"/>
+    <variant file="biped/rifleman_base.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -58,12 +57,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <group>
-    <variant name="death">
-      <props>
-		<prop actor="props/units/heads/gambeson_hood_a.xml" attachpoint="root"/>
-      </props>
-    </variant>
-  </group> 
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>
