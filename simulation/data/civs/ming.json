@@ -99,8 +99,7 @@
 
 	"WallSets": [
 		"other/wallset_palisade",
-		"structures/ming/wallset_stone",
-		"structures/ming/wallset_brick"
+		"structures/ming/wallset_stone"
 	],
 
 	"StartEntities": [
@@ -120,7 +119,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/ming/infantry_jian_swordsman_b"
+			"Template": "units/ming/cavalry_spearman_b"
 		}
 	],
 

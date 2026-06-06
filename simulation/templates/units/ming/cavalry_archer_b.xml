@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>ming</Civ>
-    <SelectionGroupName>units/han/cavalry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/ming/cavalry_archer_b</SelectionGroupName>
     <SpecificName>Gōng Qíbīng</SpecificName>
     <Icon>units/han/cavalry_archer.png</Icon>
     <Requirements>
@@ -10,9 +10,9 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/han/cavalry_archer_a</Entity>
+    <Entity>units/ming/cavalry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/han/cavalry_archer_b_m.xml</Actor>
+    <Actor>units/ming/cavalry_archer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

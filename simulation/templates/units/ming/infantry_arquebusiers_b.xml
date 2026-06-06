@@ -25,7 +25,7 @@
   <Identity>
     <Civ>ming</Civ>
     <SelectionGroupName>units/ming/infantry_arquebusiers_b</SelectionGroupName>
-    <SpecificName>Ming Arquebusiers</SpecificName>
+    <SpecificName>Ming Huochong</SpecificName>
     <Icon>units/han/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

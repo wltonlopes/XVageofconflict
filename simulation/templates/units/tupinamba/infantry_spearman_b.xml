@@ -10,7 +10,7 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/tupi/infantry_spearman_a</Entity>
+    <Entity>units/tupinamba/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/tupinamba/infantry_spearman_b.xml</Actor>

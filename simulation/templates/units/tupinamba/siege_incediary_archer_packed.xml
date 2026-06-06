@@ -9,7 +9,7 @@
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/tupi/siege_incediary_archer_unpacked</Entity>
+    <Entity>units/tupinamba/siege_incediary_archer_unpacked</Entity>
     <State>packed</State>
     <Time>5000</Time>
   </Pack>

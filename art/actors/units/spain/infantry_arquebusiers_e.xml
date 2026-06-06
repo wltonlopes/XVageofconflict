@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_iberian.xml" attachpoint="head"/>
 	      <prop actor="props/units/helmets/european_cap_player.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/arquebus.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
       </props>

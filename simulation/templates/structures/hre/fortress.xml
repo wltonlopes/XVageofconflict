@@ -29,9 +29,7 @@
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_swordsman_b
       units/{civ}/siege_cannon
-      units/{civ}/infantry_pikeman
-      units/{civ}/champion_cavalry_conquer
-      units/{civ}/champion_infantry	  
+      units/{civ}/hero_maximilian_i 
     </Entities>
   </Trainer>
   <VisualActor>

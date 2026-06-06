@@ -14,7 +14,7 @@
     <Static depth="20.0" width="20.0" />
   </Obstruction>
   <VisualActor>
-    <Actor>structures/holy_roman/stable.xml</Actor>
+    <Actor>structures/carolingian/stables.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

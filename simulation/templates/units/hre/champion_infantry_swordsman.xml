@@ -4,10 +4,10 @@
     <Civ>hre</Civ>
     <Icon>units/hre/swordsman_a.png</Icon>
     <SelectionGroupName>units/hre/infantry_swordsman_b</SelectionGroupName>
-    <SpecificName>Swordsman</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Promotion disable="" />
   <VisualActor>
-    <Actor>units/holy_roman/infantry_swordsman_c.xml</Actor>
+    <Actor>units/holy_roman/infantry_scout.xml</Actor>
   </VisualActor>
 </Entity>

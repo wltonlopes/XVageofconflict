@@ -14,7 +14,7 @@
     <Promotion disable=""/>
   <Upgrade>
     <spear>
-      <Entity>units/tupi/cavalry_spear_f_b</Entity>
+      <Entity>units/tupinamba/cavalry_spear_f_b</Entity>
       <Tooltip>Switch to using a spear.</Tooltip>
       <Variant>upgrading</Variant>
       <Time>5</Time>

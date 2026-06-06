@@ -13,7 +13,7 @@
     <Promotion disable=""/>
   <Upgrade>
     <spear>
-      <Entity>units/tupi/cavalry_archer_b</Entity>
+      <Entity>units/tupinamba/cavalry_archer_b</Entity>
       <Tooltip>Switch to using a archer.</Tooltip>
       <Variant>upgrading</Variant>
       <Time>5</Time>

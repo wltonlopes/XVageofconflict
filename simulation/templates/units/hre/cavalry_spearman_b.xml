@@ -4,7 +4,8 @@
     <Civ>hre</Civ>
     <Icon>units/hre/cavalry_spearman_a.png</Icon>
     <SelectionGroupName>units/hre/cavalry_spearman_b</SelectionGroupName>
-    <SpecificName>Kavallerie-Speer</SpecificName>
+    <GenericName>Teotonic Cavalry Spearman</GenericName>
+    <SpecificName>Kavallerie-Speer Teotonic</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/hre/cavalry_spearman_a</Entity>

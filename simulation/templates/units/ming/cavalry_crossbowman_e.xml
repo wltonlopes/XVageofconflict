@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/han/cavalry_crossbowman_e_m.xml</Actor>
+    <Actor>units/ming/cavalry_crossbowman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

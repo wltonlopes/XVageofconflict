@@ -9,6 +9,8 @@
         <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_mask_byzantine_cloth.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_cataphract_1.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

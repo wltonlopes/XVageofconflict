@@ -16,9 +16,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_han_xin_horse
-      units/{civ}/hero_liu_bang_horse
-      units/{civ}/hero_wei_qing_chariot
+      units/{civ}/hero_zhu_yuanzhang
     </Entities>
   </Trainer>
   <VisualActor>
